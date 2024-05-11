@@ -2296,6 +2296,29 @@ a[target="_blank"]:hover {
     .img-b img {
         display: block;
     }
+
+    .about-image-group-three .about-bottom-image .video-play {
+        position: absolute;
+        top: -65px;
+        right: -16px;
+    }
+
+    .about-image-group-three .about-text {
+        top: -10%;
+        padding: 20px 18px;
+        max-width: 220px;
+        right: -2%;
+    }
+
+    .about-image-group-three .about-top-image::before {
+
+        right: -8px;
+    }
+
+    .modal-content {
+        background-color: transparent;
+        border: none;
+    }
 }
 
 @media (max-width: 576px) {
@@ -2333,6 +2356,16 @@ a[target="_blank"]:hover {
         top: -10%;
         padding: 20px 18px;
         max-width: 220px;
-        right: -6%;
+        right: -2%;
+    }
+
+    .about-image-group-three .about-top-image::before {
+
+        right: -8px;
+    }
+
+    .modal-content {
+        background-color: transparent;
+        border: none;
     }
 }
